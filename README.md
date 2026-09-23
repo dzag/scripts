@@ -8,6 +8,12 @@ Bootstrap a fresh Ubuntu 26.04 instance (LXC / VM): creates a sudo user, install
 sudo bash bash/lxc-init.sh
 ```
 
+One-liner on a fresh instance (downloaded to a file rather than piped, so the interactive prompts still read from your terminal):
+
+```sh
+wget -qO /tmp/lxc-init.sh https://raw.githubusercontent.com/dzag/scripts/main/bash/lxc-init.sh && sudo bash /tmp/lxc-init.sh
+```
+
 Prompts:
 
 ```
